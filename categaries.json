@@ -1,0 +1,84 @@
+[
+    {
+        "categoryname":"appetizer",
+        "name":"Deviled Eggs",
+        "image":"https://images.pexels.com/photos/28618640/pexels-photo-28618640/free-photo-of-delicious-caesar-salad-with-grilled-chicken.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"appetizer",
+        "name":"Bruschetta",
+        "image":"https://images.pexels.com/photos/5638333/pexels-photo-5638333.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"appetizer",
+        "name":"Samosas",
+        "image":"https://images.pexels.com/photos/23286188/pexels-photo-23286188/free-photo-of-popular-indian-and-pakistani-snack-chicken-and-beef-samosa-desi-food.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Soups and Salads",
+        "name":"Chicken Noodle Soup",
+        "image":"https://images.pexels.com/photos/5338146/pexels-photo-5338146.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Soups and Salads",
+        "name":"Tomato Soup",
+        "image":"https://images.pexels.com/photos/3493579/pexels-photo-3493579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Soups and Salads",
+        "name":"Greek Salad",
+        "image":"https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Main Courses",
+        "name":"Seafood",
+        "image":"https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Main Courses",
+        "name":"Pork Chops",
+        "image":"https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }, 
+    {
+        "categoryname":"Main Courses",
+        "name":"Steak",
+        "image":"https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "option":{
+            "half":"130",
+            "full":"300"
+        }
+     }
+    
+]

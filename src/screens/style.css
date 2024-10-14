@@ -1,0 +1,43 @@
+/* *{
+    background-color: #FFC107;
+    color:white;
+
+} */
+ 
+.ss{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("WhatsApp\ Image\ 2024-09-14\ at\ 15.29.43_118926d6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sd{ 
+   width: 450px;
+   height: 500px;
+    /* border: 2px solid rgb(247, 216, 158); */
+    border-radius: 20px 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter:blur(6px) ;
+    color: white;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.kl
+{
+ width: 250px; 
+}
+/* .ss{
+ width: 200px;
+ height: 200px;
+ background-color: red;
+} */
+
+

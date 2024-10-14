@@ -1,0 +1,16 @@
+.wq{
+   background: url("wd.jpeg");
+   background-size: cover;
+   background-repeat:no-repeat ;
+   backdrop-filter:blur(20px) ;
+}
+
+/* list 
+Appetizers
+Soups and Salad
+Main Courses
+Desserts
+Beverages
+Special Dietary Options
+Kids’ Menu
+Vegetarian/Vegan */

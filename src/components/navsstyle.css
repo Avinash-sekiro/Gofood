@@ -1,0 +1,25 @@
+.mx-auto {
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size:20px;
+}
+
+.btn-success{
+    margin-top: 10px;
+}
+.as{
+    margin-right: 10px;
+}
+
+
+.ws{
+    display: flex;
+    justify-content: end;
+}
+
+.we{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
