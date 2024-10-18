@@ -5,7 +5,14 @@
     margin-top: 60px;
     
 }
-
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    }
+    
+    .zoom:hover {
+    transform: scale(1.2); /* 150% zoom */
+    }
 .q{
     background-size:cover;
     background-repeat:no-repeat;

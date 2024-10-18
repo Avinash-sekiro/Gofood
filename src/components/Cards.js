@@ -1,54 +1,87 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
-import  Form  from 'react-bootstrap/Form';
+import Form from 'react-bootstrap/Form';
+import { useDispatchCart } from './Contexredux';
 import "./con1.css";
 import { useCart } from './Contexredux';
 
 function Cards(props) {
-  console.log(props.name);
   const [qty, setQty] = useState(1);
-  const [size, setSize] = useState("");
-  const [price, setPrice] = useState(props.options ? props.options[Object.keys(props.options)[0]] : 0); // Set initial price from default option
-  let data = useCart()
-  let sid = props._id
+  const [size, setSize] = useState("");  // Re-enable size state
+  const [price, setPrice] = useState(props.options ? props.options[Object.keys(props.options)[0]] : 0); 
+  let cartData = useCart();  // Assuming useCart() returns an array or iterable object
+  let sid = props._id;
 
   let option = props.options;
   let priceOptions = Object.keys(option);
   const totalPrice = qty * price;
+  const dispatch = useDispatchCart();  // Setup dispatch for Redux actions
 
-  const handleCart = () => {
-   let food = [];
-   for ( const item of data ){
-    if(item.id == sid){
-      food =  item;
+  const handleCart = async () => {
+    let food = cartData.find((item) => item.id === sid) || {};  // Cleaner lookup
+    console.log(food);
+    console.log(new Date());
 
-      break
+    const finalPrice = totalPrice; // Define finalPrice here
 
+    if (Object.keys(food).length !== 0) {
+      // If the food item exists in the cart
+      if (food.size === size) {
+        await dispatch({ type: "UPDATE", id: food._id, price: finalPrice, qty: qty });
+        return;
+      } else {
+        await dispatch({ 
+          type: "ADD", 
+          id: food._id, 
+          name: food.name, 
+          price: finalPrice, 
+          qty: qty, 
+          size: size, 
+          img: props.ImgSrc 
+        });
+        console.log("Size different, adding another item to the list");
+        return;
+      }
     }
-   }
-   console.log(food)
-   console.log(new Date())
 
+    // If the food item is not in the cart
+    await dispatch({ 
+      type: "ADD", 
+      id: props._id, 
+      name: props.foodName, 
+      price: finalPrice, 
+      qty: qty, 
+      size: size, 
+      img: props.ImgSrc 
+    });
   };
 
   return (
-    <div className='m'>
-      <Card style={{ width: '18rem' ,margin:"20px"}}>
-  
-        <Card.Img variant="top" src={props.ImgSrc} style={{ height: "120px",objectFit: "fill" }} />
+    <div className='card-container'>
+      <Card style={{ width: '18rem', margin: "20px" }}>
+        <Card.Img 
+          variant="top" 
+          src={props.ImgSrc} 
+          style={{ height: "120px", objectFit: "fill" }} 
+        />
         <Card.Body>
           <Card.Title>{props.foodName}</Card.Title>
           <div className='container w-100 sm'>
-            <Form.Select size="sm" style={{ width: '60px' }} onChange={(e) => setQty(parseInt(e.target.value))}>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
+            <Form.Select 
+              size="sm" 
+              style={{ width: '60px' }} 
+              onChange={(e) => setQty(parseInt(e.target.value))}
+            >
+              {[...Array(6)].map((_, i) => (
+                <option key={i + 1} value={i + 1}>{i + 1}</option>
+              ))}
             </Form.Select>
-            <Form.Select size="sm" style={{ width: '80px' }} onChange={(e) => setPrice(option[e.target.value])}>
+            <Form.Select 
+              size="sm" 
+              style={{ width: '80px' }} 
+              onChange={(e) => setPrice(option[e.target.value])}
+            >
               {priceOptions.map((key) => (
                 <option key={key} value={key}>{key}</option>
               ))}
@@ -61,9 +94,8 @@ function Cards(props) {
           <Button variant="primary" onClick={handleCart}>Add to Cart</Button>
         </Card.Body>
       </Card>
-  
     </div>
   );
 }
 
-export default Cards
+export default Cards;

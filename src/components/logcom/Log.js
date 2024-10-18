@@ -27,6 +27,7 @@ function Log() {
       if (!data.success) {
         alert('Invalid email or password. Please try again.');
       } else {
+        localStorage.setItem("Emails",credential.email)
         localStorage.setItem('authToken', data.authToken);
         navigate('/'); // Redirect to homepage after successful login
       }

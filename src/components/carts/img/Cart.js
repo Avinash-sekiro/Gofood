@@ -4,7 +4,7 @@ import "./sd.css";
 export default function Cart(props) {
 
   return (
-    <div>
+    <div className='zoom'>
        <Card className="m-3" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.img} style={{ height: "120px", objectFit: "fill" }} className='q'/>
         <Card.Body>

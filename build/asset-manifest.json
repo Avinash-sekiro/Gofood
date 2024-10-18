@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97f09e76.css",
+    "main.js": "/static/js/main.fb777002.js",
+    "static/js/453.155d4446.chunk.js": "/static/js/453.155d4446.chunk.js",
+    "static/media/spe.jpeg": "/static/media/spe.e7f7de87c2644d9c03cf.jpeg",
+    "static/media/Main_Courses.jpeg": "/static/media/Main_Courses.d0a557254f79df30bbce.jpeg",
+    "static/media/f3.jpeg": "/static/media/f3.3757536fb24381314dee.jpeg",
+    "static/media/f1.jpeg": "/static/media/f1.38c330fac65a0d3fc8b9.jpeg",
+    "static/media/Beverages.jpeg": "/static/media/Beverages.21ac2f1d31c2f6cb09e6.jpeg",
+    "static/media/f2.jpeg": "/static/media/f2.b36c1054c04ed0bbce15.jpeg",
+    "static/media/supe.jpeg": "/static/media/supe.369a114a770f1190fe25.jpeg",
+    "static/media/WhatsApp Image 2024-09-14 at 15.29.43_118926d6.jpg": "/static/media/WhatsApp Image 2024-09-14 at 15.29.43_118926d6.17e9e062ac4fa536e1ae.jpg",
+    "static/media/appetizing.jpeg": "/static/media/appetizing.5a7b1e987905dacdd320.jpeg",
+    "static/media/Desserts.jpeg": "/static/media/Desserts.061f47625c3026d4b690.jpeg",
+    "static/media/herosection.jpeg": "/static/media/herosection.1aae416b685f6193a5d3.jpeg",
+    "static/media/wd.jpeg": "/static/media/wd.03a5a7540a501c8660f5.jpeg",
+    "index.html": "/index.html",
+    "main.97f09e76.css.map": "/static/css/main.97f09e76.css.map",
+    "main.fb777002.js.map": "/static/js/main.fb777002.js.map",
+    "453.155d4446.chunk.js.map": "/static/js/453.155d4446.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f09e76.css",
+    "static/js/main.fb777002.js"
+  ]
+}

@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import Signup from "./screens/Signup";
 import Order from "./screens/Order";
 import CartProvider from "./components/Contexredux";
+import Myorder from "./screens/Myorder";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Route exact path="login" element={<Login/>} />
     <Route exact path="/signup" element={<Signup/>}/>
     <Route exact path="/order" element={<Order/>}/>
+    <Route exact path="/myorder" element={<Myorder/>}/>
   </Routes>
    </div>
    </Router>

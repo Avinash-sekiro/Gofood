@@ -37,7 +37,7 @@ export default function Order() {
 
   const handleSelect = (selectedIndex) => {
     // Assuming you have a state variable for the current slide index (index)
-    setIndex(selectedIndex);
+    
   };
 
   return (
