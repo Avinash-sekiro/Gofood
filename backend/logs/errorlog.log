@@ -3,3 +3,12 @@
 20241016	22:25:05	0f55f1ae-b3b4-41cc-a29e-0defa87e8a5b	SyntaxError: Expected ',' or '}' after property value in JSON at position 29	POST	/api/orderdata	undefined
 20241016	22:35:06	f4217434-3a18-4421-b875-330b9de248da	SyntaxError: Unexpected token 'w', ..."er_data":[work]
 }" is not valid JSON	POST	/api/orderData	undefined
+20241102	21:03:09	317dd22e-e393-4d1b-8abe-854d5431c4d0	SyntaxError: Unexpected token '(', ..."   "half":(350/2),
+ "... is not valid JSON	POST	/api/product	undefined
+20241102	21:03:27	dacb0b89-df3a-4173-9728-edcfe05f60f3	SyntaxError: Expected ',' or '}' after property value in JSON at position 114	POST	/api/product	undefined
+20241102	21:03:36	215104e3-6734-44bd-bab7-38bb5603aaa3	SyntaxError: Expected ',' or '}' after property value in JSON at position 127	POST	/api/product	undefined
+20241102	21:04:07	cf4208e4-52af-4107-9059-1441713f55f6	SyntaxError: Expected ',' or '}' after property value in JSON at position 127	POST	/api/product	undefined
+20241102	22:18:42	b1bd3ba7-aa1d-438b-9cd7-eaf8e677a9bb	SyntaxError: Expected property name or '}' in JSON at position 91	POST	/api/product	undefined
+20241102	22:23:41	bea87151-74f3-462e-926c-3c15ccc8a354	SyntaxError: Expected ':' after property name in JSON at position 115	POST	/api/product	undefined
+20241104	21:12:09	f91dc9b8-4a75-4ac7-865e-c85a2b096b10	SyntaxError: Expected ',' or ']' after array element in JSON at position 108	POST	/api/product	undefined
+20241104	21:12:19	25a5f920-0314-424e-9b28-bb9e74e364e2	SyntaxError: Expected property name or '}' in JSON at position 91	POST	/api/product	undefined

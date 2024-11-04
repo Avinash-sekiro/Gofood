@@ -10,8 +10,10 @@ import s4 from "./Main_Courses.jpeg"
 import s5 from "./supe.jpeg"
 import s6 from "./spe.jpeg"
 
+
 export default function Con4() {
   return (
+    <section id="can4">
     <div className='s2'>
         <div style={{display:"flex",justifyContent:"space-around",marginLeft:"420px",marginBottom:"50px"}}>
       <h2 style={{textAlign:"center"}}>order now</h2>
@@ -33,6 +35,7 @@ export default function Con4() {
             </div>
         </div>
     </div>
+    </section>
   )
 }
 /* list 

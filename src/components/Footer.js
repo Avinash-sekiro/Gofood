@@ -1,9 +1,10 @@
 import React from 'react'
-import "./con1.css"
+import "./sd.css";
 
 export default function Footer() {
   return (
-    <div className='d2'>
+    <section id="ca5">
+    <div>
       <div>
         <h2>Gofood</h2>
         <ul>
@@ -22,5 +23,6 @@ export default function Footer() {
         </ul>
       </div>
     </div>
+    </section>
   )
 }

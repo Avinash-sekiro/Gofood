@@ -9,9 +9,9 @@ export default function Pop() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setShow(true)}>
-       My order
-      </Button>
+      <div onClick={() => setShow(true)}>
+        Cart
+      </div>
 
       <Modal
         show={show}

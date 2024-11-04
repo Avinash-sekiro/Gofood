@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 app.use("/", require("./route/root"))
 app.use("/api",require('./route/Users'))
 app.use('/api',require('./route/foods'))
-
+app.use("/api",require("./route/Product"))
 
 
 

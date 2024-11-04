@@ -3,7 +3,6 @@ import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { useDispatchCart } from './Contexredux';
-import "./con1.css";
 import { useCart } from './Contexredux';
 
 function Cards(props) {

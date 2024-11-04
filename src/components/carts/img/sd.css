@@ -1,10 +1,23 @@
 .con1 {
     width: 500px;
     height: 500px;
-    margin-left: 80px;
+    background-color: none;
+    /* margin-left: 80px;
     margin-top: 60px;
     
+ */
 }
+
+#can4{
+    background: url("5.png");
+    width: 100vw;
+height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    z-index: 3;
+    margin-bottom: 0;
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
     margin: 0 auto;
@@ -20,7 +33,6 @@
 
 .s2 {
     margin-left: 80px;
-    margin-top: 60px;
 }
 
 .c2 {
