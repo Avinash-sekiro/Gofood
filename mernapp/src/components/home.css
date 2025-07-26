@@ -1,0 +1,23 @@
+/* home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #198754; /* keep Bootstrap green */
+}
+
+/* Limit inner container width */
+.custom-navbar .container {
+  max-width: 1140px; /* or try 960px, 90%, etc. */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
