@@ -1,0 +1,47 @@
+#we{
+    background: url("./bgs/wes.png");
+width: 100vw;
+height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    position: relative;
+}
+
+#ca5{
+    margin-top: 0;
+    background: #1F1F1E;
+    width: 100vw;
+    height: 25vh;
+}
+
+
+
+.haa{
+    position: absolute;
+    top: 170px;
+    width: 500px;
+}
+
+.k{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    border-radius: 20px;
+} 
+
+.df{
+    color: white;
+}
+
+#ca2{
+    background: url("./bgs/2.png");
+    width: 100vw;
+height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color: white;
+}
+
+
